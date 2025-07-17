@@ -9,7 +9,7 @@ A simple GraphQL API built with HotChocolate and Entity Framework Core.
 
 ## Getting Started
 
-1. **Clone the repository:**git clone <your-repository-url>
+1. **Clone the repository:**git clone <repository-url>
 cd GraphQLDemo
 2. **Restore packages:**dotnet restore
 3. **Build the project:**dotnet build
@@ -71,3 +71,5 @@ This project uses the following NuGet packages:
 ## Database
 
 This project uses Entity Framework Core with an in-memory database. The database is automatically seeded with sample data when the application starts.
+
+Special thanks to [HotChocolate](https://chillicream.com/docs/hotchocolate) for providing a powerful GraphQL framework for .NET. & @Paulo Torres https://medium.com/@paulotorres/implementing-graphql-in-net-core-4fb2b0ca6e02 for providing the tutorial and inspiration for this project.
